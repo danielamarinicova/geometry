@@ -1,6 +1,7 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
-public class Rectangle {
+
+public class Rectangle implements operation, Diagonal {
 
     private double a;
     private double b;

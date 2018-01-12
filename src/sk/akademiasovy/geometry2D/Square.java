@@ -1,6 +1,7 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
-public class Square {
+
+public class Square implements operation, Diagonal{
     private double a;
 
     public double getA() {
